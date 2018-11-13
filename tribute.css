@@ -1,0 +1,113 @@
+/* stylelint-disable selector-list-comma-newline-after */
+body {
+  background-color: yellow;
+
+}
+.container {
+  margin-top: 40px;
+  
+}
+
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1:hover, h3:hover{
+  font-size: 3.7em;
+  color: #f25;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 3em;
+  color: rgb(8, 40, 56);
+}
+
+
+
+h3{
+  font-size: 2.7em;
+  color: rgb(8, 40, 56);
+}
+
+hr {
+  border-top-color: grey;
+  border-top-width: 7px;
+
+
+}
+
+.display-4 {
+  font-size: 3.5rem;
+}
+
+
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+
+.image {
+  
+  border-radius: 100%;
+  float: right;
+}
+.image:hover {
+  width: 160px;
+  height: 160px;
+  border-radius: 12px 14px;
+}
+
+
+/*
+ * Footer
+ */
+
+ span {
+  color: orange;
+ }
+.blog-footer {
+  padding: 1.5rem 0;
+  color: white;
+  text-align: center;
+  background-color: black;
+  border-top: .05rem solid grey;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
